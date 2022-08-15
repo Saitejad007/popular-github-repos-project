@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #e2f0e1;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0px;
+  border-radius: 24px;
+  height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border: 1px solid #000000;
+}
+
+@media (min-width: 576px) {
+  .list-item {
+    flex-basis: 45%;
+    margin-left: 16px;
+  }
+  .list-item:hover {
+  background-color: #2e485f;
+  color: #e2f0e1;
+  box-shadow: -6px 12px 12px 3px rgba(30, 30, 60, 0.63);
+  border: 1px solid #e2f0e1;
+  flex-basis: 48%;
+  height: 310px;
+  transition: 0.6s;
+}
+}
+
+@media (min-width: 992px) {
+  .list-item {
+    flex-basis: 30%;
+  }
+  .list-item:hover {
+  background-color: #2e485f;
+  color: #e2f0e1;
+  box-shadow: -6px 12px 12px 3px rgba(30, 30, 60, 0.63);
+  border: 1px solid #e2f0e1;
+  flex-basis: 32%;
+  height: 310px;
+  transition: 0.6s;
+}
+}
+
+@media (min-width: 1200px) {
+  .list-item {
+    flex-basis: 23%;
+  }
+  .list-item:hover {
+  background-color: #2e485f;
+  color: #e2f0e1;
+  box-shadow: -6px 12px 12px 3px rgba(30, 30, 60, 0.63);
+  border: 1px solid #e2f0e1;
+  flex-basis: 25%;
+  height: 310px;
+  transition: 0.6s;
+}
+}
+
+.repo-img {
+  width: 92px;
+  height: 92px;
+}
+
+
+.repository-name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+
+.stats-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+ .stats-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0px;
+} 
+
+
+
